@@ -17,26 +17,26 @@ Este es un CRUD (Crear, Leer, Actualizar, Eliminar) simple para gestionar client
 Se ha eliminado el archivo `AccesoDatos.php` debido a problemas de peso que impedían su subida al repositorio.
 
 ### 2. Nuevas Características
-  2)
-- **Errores PDO:**
+
+- **2) Errores PDO:**
   - He corregido las operaciones de PDO.
-  3)
-- **Manejo de Errores:**
+  
+- **3) Manejo de Errores:**
   - Ahora se muestran mensajes de error cuando se introducen datos incorrectos. Los datos incorrectos son eliminados automáticamente.
-  5)
-- **Almacenamiento de Imágenes:**
+ 
+- **5) Almacenamiento de Imágenes:**
   - Las imágenes ahora se almacenan correctamente tanto en la operación de subir como en la de modificar.
 
 - **Tamaño de Imágenes:**
   - Se ha ajustado el tamaño permitido para subir imágenes. Ahora se aceptan imágenes de mayor tamaño.
-  7)
-- **Generación de PDF:**
+ 
+- ** 7) Generación de PDF:**
   - El sistema imprime PDF con detalles, incluyendo la imagen si es de la carpeta 'uploads' (cruz a la hora de poner la foto de robot).
-  8)
-- **Contraseña Encriptada y tabla Users**
+  
+- **8) Contraseña Encriptada y tabla Users**
   - Ahora, la contraseña está encriptada en la base de datos. La aplicación también inicia sesión con el nombre de usuario (se utilizará el login como contraseña). El sql está como "Users.sql"
-  9)
-- **Inicio de Sesión:**
+  
+- **9) Inicio de Sesión:**
   - Se ha implementado la funcionalidad de inicio de sesión. Ahora es posible o entrar como "admin" (1) o "user" (0). Si es 0 solo puede acceder a visualizar los datos: lista y detalles. Si el rol es 1 podrá además modificar, borrar y eliminar usuarios
 
 
