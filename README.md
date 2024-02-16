@@ -30,7 +30,7 @@ Se ha eliminado el archivo `AccesoDatos.php` debido a problemas de peso que impe
 - **Tamaño de Imágenes:**
   - Se ha ajustado el tamaño permitido para subir imágenes. Ahora se aceptan imágenes de mayor tamaño.
  
-- ** 7) Generación de PDF:**
+- **7) Generación de PDF:**
   - El sistema imprime PDF con detalles, incluyendo la imagen si es de la carpeta 'uploads' (cruz a la hora de poner la foto de robot).
   
 - **8) Contraseña Encriptada y tabla Users**
